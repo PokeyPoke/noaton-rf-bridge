@@ -1,0 +1,22 @@
+{
+  "bridge": {
+    "address": "192.168.1.50",
+    "timezone": "Europe/London",
+    "rx_pin": "GPIO4",
+    "tx_pin": "GPIO5"
+  },
+  "rooms": [
+    {
+      "name": "Bedroom",
+      "remote": "10100101101001011010",
+      "switch": {"fan": "010110100101101001010001", "light": "010110100101101001010100"},
+      "away": {"on": ["20:30", "21:30"], "off": ["22:30", "23:30"]},
+      "siri": {"light": "Bedroom Light", "fan": "in the Bedroom"}
+    },
+    {
+      "name": "Office",
+      "remote": "01011010010110100101",
+      "away": {"on": ["17:00", "18:00"], "off": ["22:00", "23:00"]}
+    }
+  ]
+}

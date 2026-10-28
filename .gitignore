@@ -1,0 +1,10 @@
+# Your setup: codes, address and passwords. Never commit these.
+home.json
+esphome/secrets.yaml
+# Generated from home.json by tools/gen_esphome.py and tools/gen_shortcuts.py.
+esphome/rf-bridge.yaml
+esphome/ui.js
+shortcuts/
+esphome/.esphome/
+__pycache__/
+.DS_Store
